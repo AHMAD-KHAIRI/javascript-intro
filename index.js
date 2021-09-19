@@ -4,6 +4,8 @@ let octopusLimbs = 8;
 const luckyNum = 27;
 const boilingPointC = 100;
 const boilingPointF = 212;
+//the old way of declaring a variable is using var
+var myTemp = 35;
 
 //performing math calculations using math operators
 myLuckyNumber = myLuckyNumber + 1;
@@ -26,3 +28,8 @@ bankBalance += 10; //final answer is 60
 //quizQ3
 const age = 64;
 age++; //answer will be 64 because because we cannot reassign a const variable. 
+
+//declaring boolean variables
+let isActiveGame = true;
+let isLoggedIn = false;
+//note: a variable can change types e.g. from Number to Boolean and back to Number
